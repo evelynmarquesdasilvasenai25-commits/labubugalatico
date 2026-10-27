@@ -166,7 +166,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: bacb38514dc98b44db28fe62915580e8, type: 3}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -252,6 +252,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &756417981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756417976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7d251f46a0bdb4b8608c4c63b28b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::veiaaudio
+  stepsSource: {fileID: 756417980}
+  steps: {fileID: 8300000, guid: bacb38514dc98b44db28fe62915580e8, type: 3}
 --- !u!1 &933109951
 GameObject:
   m_ObjectHideFlags: 0
@@ -500,7 +514,7 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 8f2f5123e7b753b44ad9b59d61095cb5, type: 2}
     - target: {fileID: 2476617024769472149, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
       propertyPath: m_Name
-      value: Female
+      value: "Vov\xF3"
       objectReference: {fileID: 0}
     - target: {fileID: 5668192616981074894, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
       propertyPath: m_LocalPosition.x
@@ -564,6 +578,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2476617024769472149, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
       insertIndex: -1
       addedObject: {fileID: 756417980}
+    - targetCorrespondingSourceObject: {fileID: 2476617024769472149, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 756417981}
   m_SourcePrefab: {fileID: 100100000, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
