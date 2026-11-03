@@ -274,28 +274,8 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 400006, guid: 7b6c7c63327b0a8498e822b1e8412600, type: 3}
       insertIndex: 0
       addedObject: {fileID: 661153606}
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 100000, guid: 7b6c7c63327b0a8498e822b1e8412600, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 598466330}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7b6c7c63327b0a8498e822b1e8412600, type: 3}
---- !u!1 &598466329 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 100000, guid: 7b6c7c63327b0a8498e822b1e8412600, type: 3}
-  m_PrefabInstance: {fileID: 598466328}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &598466330
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 598466329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 930e050ffc938b845a4903c411c47299, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::AnimaBeba
 --- !u!4 &661153606 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1b77818cf05b75846b4ace35cf30688b, type: 3}
