@@ -323,7 +323,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 930e050ffc938b845a4903c411c47299, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AnimaBeba
-  animator_beba: {fileID: 0}
+  animator_veia: {fileID: 661153607}
   ataque:
     m_Name: Ataque
     m_Type: 0
@@ -339,6 +339,42 @@ MonoBehaviour:
       m_Processors: 
       m_Groups: 
       m_Action: Ataque
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+  andar:
+    m_Name: Andar
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 6a41613f-18cb-444f-bfd1-4e143170958e
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: eddda04e-a12f-44c2-854f-54e99545a2c2
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Andar
+      m_Flags: 0
+    m_Flags: 0
+    m_Priority: 0
+  voltar:
+    m_Name: Voltar
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 98f7f5f5-de1c-48d6-bb84-f49a14c88fc9
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 788976f9-b3e3-4378-b569-f4979103544a
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Voltar
       m_Flags: 0
     m_Flags: 0
     m_Priority: 0
