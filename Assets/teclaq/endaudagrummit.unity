@@ -162,7 +162,15 @@ MonoBehaviour:
     m_Id: f44eab07-42ca-45d4-8587-8079e18d5570
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 1d07ee95-d1b6-4bae-87cb-1ffb0de99fc3
+      m_Path: <Keyboard>/a
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Andar
+      m_Flags: 0
     m_Flags: 0
     m_Priority: 0
   voltar:
@@ -172,7 +180,15 @@ MonoBehaviour:
     m_Id: 78be4851-0424-4dfa-bb2b-97bb4107cbfc
     m_Processors: 
     m_Interactions: 
-    m_SingletonActionBindings: []
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 7afacd16-1acb-4c7a-abd4-6fa3eb3e34cb
+      m_Path: <Keyboard>/d
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Voltar
+      m_Flags: 0
     m_Flags: 0
     m_Priority: 0
 --- !u!82 &756417980
@@ -186,7 +202,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: bacb38514dc98b44db28fe62915580e8, type: 3}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -284,8 +300,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8a7d251f46a0bdb4b8608c4c63b28b9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::veiaaudio
-  stepsSource: {fileID: 756417980}
-  steps: {fileID: 8300000, guid: bacb38514dc98b44db28fe62915580e8, type: 3}
+  wooshSource: {fileID: 756417980}
+  wooshChute1: {fileID: 8300000, guid: 13aa14480e528084b9ad0ad7a608e829, type: 3}
+  stepSource: {fileID: 756417980}
+  step1: {fileID: 8300000, guid: bacb38514dc98b44db28fe62915580e8, type: 3}
+  grunts:
+  - {fileID: 8300000, guid: 75067e7bc8742b648aac3dfba8ca9089, type: 3}
+  - {fileID: 8300000, guid: 0eebcd07ea8b8f84fac32531bcb4e205, type: 3}
+  - {fileID: 8300000, guid: 2e17f813c1c78fd4d9fb24a1a01cb2b7, type: 3}
+  - {fileID: 8300000, guid: e52e7b2a125e1ff498b2358181ce4cf5, type: 3}
+  - {fileID: 8300000, guid: a8aa4a7d8a723fa44ba81be74a504888, type: 3}
+  - {fileID: 8300000, guid: c8a38c1f09024904e81fc3cfb66723cf, type: 3}
+  voiceSource: {fileID: 756417980}
+--- !u!1 &793491269 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8999367298642567812, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
+  m_PrefabInstance: {fileID: 3524451138968925537}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &933109951
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,6 +414,30 @@ Animator:
   m_CorrespondingSourceObject: {fileID: 2400366479831130692, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
   m_PrefabInstance: {fileID: 3524451138968925537}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1280485732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793491269}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a7d251f46a0bdb4b8608c4c63b28b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::veiaaudio
+  wooshSource: {fileID: 756417980}
+  wooshChute1: {fileID: 8300000, guid: 13aa14480e528084b9ad0ad7a608e829, type: 3}
+  stepSource: {fileID: 756417980}
+  step1: {fileID: 8300000, guid: bacb38514dc98b44db28fe62915580e8, type: 3}
+  grunts:
+  - {fileID: 8300000, guid: 75067e7bc8742b648aac3dfba8ca9089, type: 3}
+  - {fileID: 8300000, guid: 0eebcd07ea8b8f84fac32531bcb4e205, type: 3}
+  - {fileID: 8300000, guid: 2e17f813c1c78fd4d9fb24a1a01cb2b7, type: 3}
+  - {fileID: 8300000, guid: e52e7b2a125e1ff498b2358181ce4cf5, type: 3}
+  - {fileID: 8300000, guid: a8aa4a7d8a723fa44ba81be74a504888, type: 3}
+  - {fileID: 8300000, guid: c8a38c1f09024904e81fc3cfb66723cf, type: 3}
+  voiceSource: {fileID: 756417980}
 --- !u!1 &1735033169
 GameObject:
   m_ObjectHideFlags: 0
@@ -558,7 +613,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6343524342249691469, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8624389214859638846, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
       propertyPath: m_LocalPosition.x
@@ -588,7 +643,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3690874081086339265, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
@@ -601,6 +657,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 2476617024769472149, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
       insertIndex: -1
       addedObject: {fileID: 756417981}
+    - targetCorrespondingSourceObject: {fileID: 8999367298642567812, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1280485732}
   m_SourcePrefab: {fileID: 100100000, guid: 7590bcafb8b6fd446b389caaa5def693, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
