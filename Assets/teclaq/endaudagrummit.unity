@@ -155,6 +155,26 @@ MonoBehaviour:
       m_Flags: 0
     m_Flags: 0
     m_Priority: 0
+  andar:
+    m_Name: Andar
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: f44eab07-42ca-45d4-8587-8079e18d5570
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
+  voltar:
+    m_Name: Voltar
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 78be4851-0424-4dfa-bb2b-97bb4107cbfc
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+    m_Priority: 0
 --- !u!82 &756417980
 AudioSource:
   m_ObjectHideFlags: 0
@@ -166,7 +186,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: bacb38514dc98b44db28fe62915580e8, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
