@@ -38,15 +38,4 @@ public class veiaaudio : MonoBehaviour
         stepSource.clip = step1;
         stepSource.Play();
     }
-
-    void Start()
-    {
-
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
